@@ -1,0 +1,16 @@
+[package]
+name = "focos"
+version = "0.0.1"
+authors = ["Andrés N. Robalino <andres@androbtech.com>"]
+description = "Interoperability with Focos"
+repository = "https://github.com/androbtech/focos"
+include = [
+  "src/**/*.rs",
+  "Cargo.toml"
+]
+
+[dependencies]
+libc = "0.2.0"
+
+[build-dependencies]
+gcc = "0.3"

@@ -2,3 +2,4 @@ FocosBox_tests
 lib/libFocosBox.a
 objs/
 unity.framework/
+target/
